@@ -14,3 +14,25 @@
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
+	
+<div class="homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header" style="background-iamage:url('/wp-content/uploads/2017/11/everyone.jpg<?php //echo get_post_meta(get_the_ID(), "header_img_url", true ); ?>');">
+
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1><a href="/" id="logo">Indian American Scholarship Foundation</a></h1>
+								<?php if (is_front_page()): ?>
+    								<hr />
+    								<p>Honoring Excellence in Education</p>
+    							<?php endif; ?>
+							</header>
+							<!--footer>
+								<a href="#banner" class="button circled scrolly">Start</a>
+							</footer-->
+						</div>
+	<?php include "nav.php"; ?>
+				</div><!-- #header -->
