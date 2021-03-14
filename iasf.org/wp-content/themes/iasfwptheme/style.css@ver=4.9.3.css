@@ -1,0 +1,30 @@
+/*
+	Theme Name: IASF theme
+	Description: IASF WP theme
+	Version: 1.0
+*/
+
+.question {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.question::after {
+    content: "  ▼";
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.answer {
+    display: none;
+}
+
+img.img-thumbnail {
+    margin: 15px;
+    display: inline-block;
+}
+
+a.image.featured {
+    text-align: center;
+    margin: 0 0 1em 0;
+}
